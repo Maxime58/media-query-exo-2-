@@ -1,0 +1,23 @@
+h1{
+    height:10px;
+}
+
+body {
+    background-color: lightgreen;
+  }
+  
+  @media only screen and (max-width:320px) {
+    h1 {
+       height:15px;
+    }
+  }
+  @media only screen and (max-width:600px) {
+    h1 {
+       height:25px;
+    }
+  }
+  @media only screen and (max-width:1204px) {
+    h1 {
+       height:50px;
+    }
+  }
